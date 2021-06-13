@@ -1,9 +1,11 @@
 import React from "react";
 
+import Couersal from "../components/Home/Couersal";
+
 const Home = () => {
   return (
     <div>
-      <h1>Home Page </h1>
+      <Couersal />
     </div>
   );
 };
