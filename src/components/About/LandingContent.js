@@ -1,30 +1,37 @@
 import React from "react";
 
-import { Typography } from "@material-ui/core";
+import land from "../../resources/1.png";
+
+import { Typography, Grid } from "@material-ui/core";
+
+import classes from "./About.module.css";
 
 const LandingContent = () => {
   return (
-    <div>
-      <Typography variant="h1">About Page.</Typography>
-      <Typography variant="body2" component="p">
-        Welcome to Minzor is a innovative team who would be providing services
-        to its various clients globally, promoted by professional having rich
-        experience in Business Intelligence, Consulting, Staffing, Outsourcing
-        and Training domain specializing in the business of Infrastructure
-        services and Talent Management solutions. Minzor is a full-service
-        global Digital Marketing, Software Development, Business Intelligence
-        Consulting and Education Company providing online promotions for
-        start-ups, SMEs and large businesses. We are a young, dynamic,
-        innovative and creative team of enthusiastic professionals. Minzor
-        consultants have years of data warehousing experience to draw from to
-        improve the design, implementation and operation of your data gathering
-        and information analysis activities. We can do this by starting from
-        scratch, but most often we determine how to best take advantage of your
-        previous IT investments and incrementally improve your data ROI. Our
-        goal is to get the right staff in place for you to be successful. We
-        usually work in small project teams with joint IT and business people
-        from your company on the project team.{" "}
-      </Typography>
+    <div className={classes.bg}>
+      <div className={classes.container}>
+        <Typography className={classes.about} variant="h2">
+          About Us
+        </Typography>
+        <Typography className={classes.mantra} variant="h4" component="p">
+          <span>Minzor's</span> mantra of success is, <span>“</span>I THINK, I
+          PLAN, I CREATE, I INNOVATE AND I SUCCEED.<span>”</span>
+        </Typography>
+        <Typography className={classes.typo} variant="h2">
+          As a great man once said, “Individually, we are one drop. Together, we
+          are an ocean.” The same goes for our compassionate and driven team at
+          Minzor. Each of us has well defined roles and work as a group to
+          produce wonders for you.
+        </Typography>
+
+        <div className={classes.morals}>
+          <Typography variant="h4">Rules we live by</Typography>
+          <Typography variant="h2">Rules we live by</Typography>
+          <Typography variant="h2">Rules we live by</Typography>
+          <Typography variant="h2">Rules we live by</Typography>
+          <Typography variant="h2">Rules we live by</Typography>
+        </div>
+      </div>
     </div>
   );
 };

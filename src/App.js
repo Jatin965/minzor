@@ -20,7 +20,7 @@ import Services from "./pages/Services";
 let theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#04AC80",
+      main: "#4094f2",
     },
     secondary: {
       main: "#fff",

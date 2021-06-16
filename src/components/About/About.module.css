@@ -1,0 +1,37 @@
+/* Landing Content Page */
+
+.bg {
+  background: url(../../resources/1.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  padding-left: 150px;
+  width: 35%;
+}
+
+.about {
+  margin-top: 100px !important;
+}
+
+.mantra {
+  margin-top: 30px !important;
+  width: 90%;
+  margin-bottom: 60px !important;
+}
+
+.mantra > span {
+  color: #0050ac;
+}
+
+.typo {
+  width: 95%;
+}
+
+.morals {
+  margin: 200px 0;
+}
