@@ -5,14 +5,14 @@ import { Grid, Typography } from "@material-ui/core";
 
 import TeamBlock from "./TeamBlock";
 
-import sourabh from "../../resources/sourabh.jpg";
-import Akshay from "../../resources/Akshay.png";
-import Neha from "../../resources/Neha.png";
-import Sushmita from "../../resources/Sushmita.png";
-import Krishna from "../../resources/Krishna.png";
-import Aman from "../../resources/Aman.jpeg";
-import Mayank from "../../resources/Mayank.jpeg";
-import Shubham from "../../resources/Shubham.jpg";
+import sourabh from "../../resources/Team/sourabh.jpg";
+import Akshay from "../../resources/Team/Akshay.png";
+import Neha from "../../resources/Team/Neha.png";
+import Sushmita from "../../resources/Team/Sushmita.png";
+import Krishna from "../../resources/Team/Krishna.png";
+import Aman from "../../resources/Team/Aman.jpeg";
+import Mayank from "../../resources/Team/Mayank.jpeg";
+import Shubham from "../../resources/Team/Shubham.jpg";
 
 const Team = () => {
   const useStyles = makeStyles({
