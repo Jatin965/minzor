@@ -1,0 +1,235 @@
+/* Services */
+
+.services {
+  background: #0d152a;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.sHeading h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin: 0px;
+  padding: 0px;
+}
+.sHeading p {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+.sHeading {
+  text-align: center;
+  margin: 20px 0px;
+}
+.sBox {
+  background-color: #2b2b2b;
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.bContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.sBImg {
+  width: 100%;
+  height: 70%;
+}
+.sBImg img {
+  width: 100%;
+  height: 100%;
+}
+.sBText {
+  width: 100%;
+  height: 30%;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sBText a {
+  text-decoration: none;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  font-family: calibri;
+  display: block;
+  display: -webkit-box;
+  max-width: 80%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sBText a:hover {
+  color: #ffffff;
+}
+.sType {
+  font-family: calibri;
+  color: #ffffff;
+  background-color: #151515;
+  padding: 10px 15px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.sBox:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+/* ClientLogo */
+
+.imgContainer {
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 11px;
+  padding: auto;
+}
+
+/* Clients */
+
+.clients {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+.clients h1 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#f86d15, #fcc009);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 80px;
+}
+
+/* Testimonials */
+
+.testimonials {
+  overflow-x: hidden;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.testimonials h1 {
+  font-size: 3rem;
+  margin-top: 10px;
+  color: #0d152a;
+  padding: 0;
+}
+
+.testimonials p {
+  color: rgba(8, 8, 8, 0.87);
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.testimonial__wrapper {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.testimonial__info {
+  width: 100%;
+  height: fit-content;
+  padding: 3rem;
+  background-color: #0d152a;
+  border-radius: 12px;
+  margin-top: 5rem;
+}
+.para {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  line-height: 1.3em;
+  text-align: center;
+  color: #fafafa;
+}
+.testimonial__name {
+  margin-top: 4rem;
+  background: -webkit-linear-gradient(#f86d15, #fcc009);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+.testimonial__title {
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  color: #fff !important;
+}
+.arrows {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrows svg {
+  width: 30px;
+  pointer-events: none;
+}
+.arrows.next,
+.arrows.prev {
+  margin: 0 0.5rem;
+  width: fit-content;
+  background-color: var(--deep-dark);
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.96);
+  z-index: 1;
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: 250ms ease-in;
+  transition-property: transform, opacity;
+  z-index: 1;
+}
+.fade-exit {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.96);
+  transition: 200ms ease-in;
+  transition-property: transform, opacity;
+}
+
+/* Landing */
+
+.landing {
+  margin: auto;
+  min-height: 80vh;
+}

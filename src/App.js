@@ -15,12 +15,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import Services from "./pages/Services";
 
 let theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#4094f2",
+      main: "#0D152A",
     },
     secondary: {
       main: "#fff",
@@ -65,10 +64,6 @@ function App() {
 
           <Route path="/portfolio">
             <Portfolio />
-          </Route>
-
-          <Route path="/services">
-            <Services />
           </Route>
         </main>
         <Footer />

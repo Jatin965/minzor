@@ -4,7 +4,7 @@ import { TextField } from "@material-ui/core";
 
 import classes from "./styles.module.css";
 
-import shape from "../resources/Contact/shape.png";
+import shape from "../resources/Contact/Asset.png";
 import email from "../resources/Contact/email.png";
 import location from "../resources/Contact/location.png";
 import phone from "../resources/Contact/phone.png";
@@ -15,25 +15,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 
 const Contact = () => {
-  const inputs = document.querySelectorAll(".input");
-
-  function focusFunc() {
-    let parent = this.parentNode;
-    parent.classList.add("focus");
-  }
-
-  function blurFunc() {
-    let parent = this.parentNode;
-    if (this.value == "") {
-      parent.classList.remove("focus");
-    }
-  }
-
-  inputs.forEach((input) => {
-    input.addEventListener("focus", focusFunc);
-    input.addEventListener("blur", blurFunc);
-  });
-
   const submitHandler = (e) => {
     e.preventDefault();
   };

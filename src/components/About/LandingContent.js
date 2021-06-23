@@ -1,6 +1,6 @@
 import React from "react";
 
-import land from "../../resources/1.png";
+import land from "../../resources/BGs/1.png";
 
 import { Typography, Grid } from "@material-ui/core";
 

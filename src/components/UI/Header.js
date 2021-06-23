@@ -9,6 +9,8 @@ import {
 } from "@material-ui/core";
 import { NavLink as Link } from "react-router-dom";
 
+import Logo from "../../resources/Logo/M.png";
+
 const Header = () => {
   const useStyles = makeStyles({
     root: {
@@ -37,6 +39,11 @@ const Header = () => {
         transform: "translate3d(0, 0, 0)",
       },
     },
+    img: {
+      height: 40,
+      width: 250,
+      aspectRatio: "auto",
+    },
   });
 
   const classes = useStyles();
@@ -46,22 +53,22 @@ const Header = () => {
       <Toolbar className={classes.contain}>
         <Grid item lg={8} sm={12}>
           <Link to="/">
-            <img src="" alt="Minzor" />
+            <img className={classes.img} src={Logo} alt="Minzor" />
           </Link>
         </Grid>
         <Grid item lg={4} sm={12}>
           <ul className={classes.ul}>
-            <li>
+            {/* <li>
               <Typography variant="body1">
                 <Link className={classes.li} to="/services">
                   Services
                 </Link>
               </Typography>
-            </li>
+            </li> */}
             <li>
               <Typography variant="body1">
                 <Link className={classes.li} to="/portfolio">
-                  Portfolio
+                  Our Work
                 </Link>
               </Typography>
             </li>
