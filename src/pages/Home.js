@@ -11,8 +11,8 @@ import img from "../resources/BGs/1.jpg";
 const Home = () => {
   return (
     <div>
-      {/* <Couersal background={img} /> */}
-      <Landing />
+      <Couersal />
+      {/* <Landing /> */}
       <Services />
       <Clients />
       <Testimonial />

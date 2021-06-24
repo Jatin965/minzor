@@ -8,8 +8,8 @@ import {
   responsiveFontSizes,
 } from "@material-ui/core";
 
-import Header from "./components/UI/Header";
-import Footer from "./components/UI/Footer";
+import Header from "./components/Navigation/Header";
+import Footer from "./components/Navigation/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
