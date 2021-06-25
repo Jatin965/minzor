@@ -230,6 +230,7 @@ textarea.input {
 .icon {
   width: 28px;
   margin-right: 0.7rem;
+  color: #0d152a;
 }
 
 .socialMedia {
@@ -260,6 +261,10 @@ textarea.input {
 
 .socialIcons a:hover {
   transform: scale(1.05);
+}
+
+.ico {
+  margin-top: 5px;
 }
 
 .contactInfo:before {

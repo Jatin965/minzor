@@ -25,6 +25,25 @@
   position: relative;
   z-index: 1;
 }
+
+.hero-title {
+  font-size: 3rem !important;
+  margin-bottom: 20px !important;
+}
+
+.hero-title span {
+  background: -webkit-linear-gradient(#f86d15, #fcc009);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.hero-paragraph {
+  font-size: 1.1rem;
+  color: #0d152a;
+}
+
 .hero-cta {
   margin-bottom: 40px;
 }

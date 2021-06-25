@@ -96,6 +96,28 @@
   transition: all ease 0.3s;
 }
 
+@media (max-width: 1190px) {
+  .services {
+    height: auto;
+  }
+  .bContainer {
+    flex-wrap: wrap;
+  }
+  .sBox {
+    flex-grow: 1;
+  }
+  .sBImg img {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 400px) {
+  .sBox {
+    width: 100%;
+    height: 400px;
+  }
+}
+
 /* ClientLogo */
 
 .imgContainer {

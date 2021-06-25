@@ -1,13 +1,12 @@
 import React from "react";
 
-import { TextField } from "@material-ui/core";
-
 import classes from "./styles.module.css";
 
 import shape from "../resources/Contact/Asset.png";
-import email from "../resources/Contact/email.png";
-import location from "../resources/Contact/location.png";
-import phone from "../resources/Contact/phone.png";
+
+import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
+import MyLocationIcon from "@material-ui/icons/MyLocation";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -32,15 +31,15 @@ const Contact = () => {
 
           <div className={classes.info}>
             <div className={classes.information}>
-              <img src={location} className={classes.icon} alt="" />
+              <MyLocationIcon fontSize="large" className={classes.icon} />
               <p>92 Cherry Drive Uniondale, NY 11553</p>
             </div>
             <div className={classes.information}>
-              <img src={email} className={classes.icon} alt="" />
+              <MailOutlineIcon fontSize="large" className={classes.icon} />
               <p>info@minzor.com</p>
             </div>
             <div className={classes.information}>
-              <img src={phone} className={classes.icon} alt="" />
+              <PhoneInTalkIcon fontSize="large" className={classes.icon} />
               <p>+91-8770689525</p>
             </div>
           </div>
@@ -49,16 +48,16 @@ const Contact = () => {
             <p>Connect with us :</p>
             <div className={classes.socialIcons}>
               <a href="#">
-                <FacebookIcon />
+                <FacebookIcon className={classes.ico} />
               </a>
               <a href="#">
-                <TwitterIcon />
+                <TwitterIcon className={classes.ico} />
               </a>
               <a href="#">
-                <InstagramIcon />
+                <InstagramIcon className={classes.ico} />
               </a>
               <a href="#">
-                <LinkedInIcon />
+                <LinkedInIcon className={classes.ico} />
               </a>
             </div>
           </div>
@@ -71,31 +70,35 @@ const Contact = () => {
           <form onSubmit={submitHandler}>
             <h3 className={classes.title}>Contact us</h3>
             <div className={classes.inputContainer}>
-              <TextField
-                id="outlined-basic"
-                label="Username"
-                variant="outlined"
+              <input
+                placeholder="Username"
                 type="text"
                 color="secondary"
-                // classes={{ input: classes.input }}
+                className={classes.input}
               />
-
-              <span>Username</span>
             </div>
             <div className={classes.inputContainer}>
-              <input type="email" name="email" className={classes.input} />
-              <label for="">Email</label>
-              <span>Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                className={classes.input}
+              />
             </div>
             <div className={classes.inputContainer}>
-              <input type="tel" name="phone" className={classes.input} />
-              <label for="">Phone</label>
-              <span>Phone</span>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone"
+                className={classes.input}
+              />
             </div>
             <div className={`${classes.inputContainer}  ${classes.textarea}`}>
-              <textarea name="message" className={classes.input}></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
+              <textarea
+                name="message"
+                placeholder="Message"
+                className={classes.input}
+              ></textarea>
             </div>
             <input type="submit" value="Send" className={classes.btn} />
           </form>

@@ -2,19 +2,19 @@ import React, { useEffect } from "react";
 
 import "../../App.css";
 
-import main from "../../lib/main";
+import main from "../../lib/main.min";
 
 import { Card, makeStyles, Typography } from "@material-ui/core";
 
 const Couersal = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
+  // useEffect(() => {
+  //   const script = document.createElement("script");
 
-    script.src = { main };
-    script.async = true;
+  //   script.src = { main };
+  //   script.async = true;
 
-    document.body.appendChild(script);
-  }, []);
+  //   document.body.appendChild(script);
+  // }, []);
 
   return (
     <div className="body-wrap">
@@ -27,24 +27,19 @@ const Couersal = () => {
                 variant="h1"
                 className="hero-title mt-0"
               >
-                Landing template for startups
+                Greetings from <span>Minzor!</span>
               </Typography>
               <Typography
                 color="secondary"
                 variant="p"
                 className="hero-paragraph"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                We are an innovative team of experienced and determined
+                professionals with global reach. We offer unparalleled Business
+                Intelligence, Consulting, Staffing, Outsourcing and Training
+                Domain services across countries. We specialize in
+                Infrastructural Services and Talent Management solutions.
               </Typography>
-              <div className="hero-cta">
-                <a className="button button-primary" href="#">
-                  Pre order now
-                </a>
-                <a className="button" href="#">
-                  Get in touch
-                </a>
-              </div>
             </div>
             <div className="hero-figure anime-element">
               <svg

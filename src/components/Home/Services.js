@@ -28,10 +28,9 @@ const Services = () => {
           {/* // text----------------- */}
           <div className={styles.sBText}>
             <a href="#">
-              With Divi, every part of your website is customizable. You have
-              complete freedom to create the perfect website for you or your
-              clients. Easily change colors, fonts and text styles. Apply
-              stunning animations.
+              We create visual concepts, using computer software or by hand, We
+              have experienced coders. We serve everything according to your
+              requirement. Our coders are passionate about their work.
             </a>
           </div>
         </div>
@@ -47,10 +46,9 @@ const Services = () => {
           {/* // text----------------- */}
           <div className={styles.sBText}>
             <a href="#">
-              With Divi, every part of your website is customizable. You have
-              complete freedom to create the perfect website for you or your
-              clients. Easily change colors, fonts and text styles. Apply
-              stunning animations.
+              India has close to 260 million smart phone users. We understand
+              best, how important is it for your app to perform good for such
+              huge user base.
             </a>
           </div>
         </div>
@@ -66,10 +64,9 @@ const Services = () => {
           {/* // text--------------- */}
           <div className={styles.sBText}>
             <a href="#">
-              With Divi, every part of your website is customizable. You have
-              complete freedom to create the perfect website for you or your
-              clients. Easily change colors, fonts and text styles. Apply
-              stunning animations.
+              Search engine optimization is the practice of increasing the
+              quantity and quality of traffic to your website through organic
+              search engine results.
             </a>
           </div>
         </div>

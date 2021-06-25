@@ -1,5 +1,8 @@
 import "./App.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import {
@@ -43,6 +46,8 @@ let theme = createMuiTheme({
 });
 
 theme = responsiveFontSizes(theme);
+
+AOS.init();
 
 function App() {
   return (

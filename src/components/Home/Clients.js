@@ -89,9 +89,7 @@ const Clients = () => {
         <Grid item md={3}>
           <ClientLogo image={s18} />
         </Grid>
-        <Grid item md={3}>
-          <ClientLogo image={s19} />
-        </Grid>
+
         <Grid item md={3}>
           <ClientLogo image={s20} />
         </Grid>
