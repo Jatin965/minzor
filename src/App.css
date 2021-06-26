@@ -119,6 +119,7 @@
   height: 37.37%;
   background: linear-gradient(to left top, #fcc009, rgba(0, 191, 251, 0));
   transform: rotateZ(45deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-01::before {
   background: linear-gradient(to left, #15181d 0%, rgba(21, 24, 29, 0) 60%);
@@ -131,6 +132,7 @@
   height: 50.5%;
   background: linear-gradient(to left top, #ed1c24, rgba(2, 112, 215, 0));
   transform: rotateZ(-45deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-02::before {
   background: linear-gradient(to top, #15181d 0%, rgba(21, 24, 29, 0) 60%);
@@ -142,6 +144,7 @@
   width: 56.81%;
   height: 75.75%;
   background: linear-gradient(to left top, #f86d15, rgba(0, 191, 251, 0));
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-03::before {
   background: linear-gradient(to left, #15181d 0%, rgba(21, 24, 29, 0) 60%);
@@ -154,6 +157,7 @@
   height: 60.6%;
   background: linear-gradient(to left top, #0d152a, rgba(2, 112, 215, 0));
   transform: rotateZ(-135deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-04::before {
   background: linear-gradient(
@@ -209,6 +213,7 @@
   width: 30.3%;
   height: 40.4%;
   transform: rotateZ(20deg);
+  animation: scale67 1200ms ease-in, rotate67 800ms ease-in-out;
 }
 .hero-figure-box-07 {
   left: 1.9%;
@@ -216,7 +221,59 @@
   width: 12.12%;
   height: 16.16%;
   transform: rotateZ(20deg);
+  animation: scale67 1200ms ease-in, rotate67 800ms ease-in-out;
 }
+
+@keyframes scale67 {
+  0% {
+    transform: scaleX(0.05) scaleY(1);
+    perspective: 500px;
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(0.05) scaleY(1);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate67 {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ("20deg");
+  }
+}
+
+@keyframes scale12348910 {
+  0% {
+    transform: scaleX(0.7) scaleY(1);
+    perspective: 500px;
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(0.7) scaleY(1);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate12348910 {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ("360deg");
+  }
+}
+
 .hero-figure-box-08 {
   left: 27.1%;
   top: 81.6%;
@@ -224,6 +281,7 @@
   height: 26.01%;
   background: #0d152a;
   transform: rotateZ(-22deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-08::before {
   background: linear-gradient(
@@ -240,6 +298,7 @@
   height: 8.83%;
   background: #f86d15;
   transform: rotateZ(-52deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 .hero-figure-box-09::before {
   background: linear-gradient(
@@ -256,6 +315,7 @@
   height: 4.04%;
   background: rgba(0, 191, 251, 0.32);
   transform: rotateZ(-50deg);
+  animation: scale12348910 1200ms ease-in, rotate12348910 800ms ease-in-out;
 }
 @media (max-width: 640px) {
   .hero-cta {

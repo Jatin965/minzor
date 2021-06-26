@@ -1,5 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+
+import { Link } from "react-router-dom";
+
 import {
   Grid,
   Typography,
@@ -9,14 +12,12 @@ import {
   withStyles,
   withWidth,
   isWidthUp,
-  TextField,
 } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import transitions from "@material-ui/core/styles/transitions";
 
 import WaveBorder from "../UI/WaveBorder";
-import ColoredButton from "../UI/ColoredButton";
 
 const styles = (theme) => ({
   footerInner: {
@@ -193,16 +194,16 @@ function Footer(props) {
               USEFUL LINKS
             </Typography>
             <Typography style={LinkStyle} color="secondary">
-              HOME
+              <Link to="/">HOME</Link>
             </Typography>
             <Typography style={LinkStyle} color="secondary">
-              OUR WORK
+              <Link to="/portfolio">OUR WORK</Link>
             </Typography>
             <Typography style={LinkStyle} color="secondary">
-              ABOUT
+              <Link to="/about">ABOUT</Link>
             </Typography>
             <Typography style={LinkStyle} color="secondary">
-              CONTACT US
+              <Link to="/contact">CONTACT US</Link>
             </Typography>
           </Grid>
           <Hidden mdDown>

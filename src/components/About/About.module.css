@@ -1,7 +1,7 @@
 /* Landing Content Page */
 
 .bg {
-  background: url(../../resources/BGs/1.png) no-repeat center fixed;
+  background: url(../../resources/BGs/A8.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,12 +10,14 @@
 }
 
 .container {
-  padding-left: 150px;
-  width: 35%;
+  width: 36vw;
+  margin-left: 15vw;
 }
 
 .about {
-  margin-top: 100px !important;
+  margin-top: 150px !important;
+  font-size: 2.5rem !important;
+  color: #0d152a;
 }
 
 .mantra {
@@ -25,7 +27,10 @@
 }
 
 .mantra > span {
-  color: #0050ac;
+  background: -webkit-linear-gradient(#f86d15, #fcc009);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
 }
 
 .typo {
@@ -34,4 +39,22 @@
 
 .morals {
   margin: 200px 0;
+}
+
+.head {
+  background: -webkit-linear-gradient(#ed1c24, #f15a24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px !important;
+}
+
+.rule {
+  margin: 20px 0 !important;
+}
+
+.rule > span {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#f86d15, #fcc009);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

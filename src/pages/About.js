@@ -6,17 +6,17 @@ import LandingContent from "../components/About/LandingContent";
 import { makeStyles } from "@material-ui/styles";
 
 const About = () => {
-  // const useStyles = makeStyles({
-  //   root: {
-  //     width: "80vw",
-  //     margin: "auto",
-  //   },
-  // });
+  const useStyles = makeStyles({
+    root: {
+      alignItems: "center",
+      justifyContent: "center",
+    },
+  });
 
-  // const classes = useStyles();
+  const classes = useStyles();
 
   return (
-    <div className="">
+    <div className={classes.root}>
       <LandingContent />
 
       <Team />
