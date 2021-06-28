@@ -250,8 +250,9 @@ function Footer(props) {
               About the Company
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+              Once we start working together, you are our team and our family
+              too. Therefore, you deserve nothing but the best! And the best is
+              what we offer, here, at Minzor.
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (

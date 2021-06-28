@@ -147,7 +147,7 @@
   background: -webkit-linear-gradient(#f86d15, #fcc009);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 80px;
+  margin: 80px 0;
 }
 
 /* Testimonials */

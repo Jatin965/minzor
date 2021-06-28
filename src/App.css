@@ -6,14 +6,13 @@
   z-index: -100;
 }
 
-.container,
-.container-sm {
+.container {
   width: 80vw;
   margin: auto;
   padding-left: 16px;
   padding-right: 16px;
   min-height: 60vh;
-  margin-top: 70px;
+  margin-top: 130px;
 }
 
 .hero {

@@ -10,7 +10,7 @@
 body,
 input,
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa";
 }
 
 .container {
@@ -23,6 +23,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .form {

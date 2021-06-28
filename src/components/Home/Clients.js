@@ -36,7 +36,11 @@ const Clients = () => {
     <div className={styles.clients}>
       <h1>Our Clients</h1>
 
-      <Grid container spacing={1}>
+      <Grid
+        style={{ alignItems: "center", justifyContent: "center" }}
+        container
+        spacing={1}
+      >
         <Grid item md={3}>
           <ClientLogo image={s1} />
         </Grid>

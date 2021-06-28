@@ -19,7 +19,7 @@ const Portfolio = () => {
         style={{
           color: "#0d152a",
           "font-size": "3rem",
-          margin: "0px",
+          marginTop: "50px",
           padding: "0px",
         }}
       >
