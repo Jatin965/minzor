@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Typography } from "@material-ui/core";
+
 import styles from "./Home.module.css";
 
 import s1 from "../../resources/Services/s1.png";
@@ -27,11 +29,11 @@ const Services = () => {
           </div>
           {/* // text----------------- */}
           <div className={styles.sBText}>
-            <a href="#">
+            <Typography color="secondary">
               We create visual concepts, using computer software or by hand, We
               have experienced coders. We serve everything according to your
               requirement. Our coders are passionate about their work.
-            </a>
+            </Typography>
           </div>
         </div>
         {/* // box-2---------------- */}
@@ -45,11 +47,11 @@ const Services = () => {
           </div>
           {/* // text----------------- */}
           <div className={styles.sBText}>
-            <a href="#">
+            <Typography color="secondary">
               India has close to 260 million smart phone users. We understand
               best, how important is it for your app to perform good for such
               huge user base.
-            </a>
+            </Typography>
           </div>
         </div>
         {/* // box-3---------------- */}
@@ -63,11 +65,11 @@ const Services = () => {
           </div>
           {/* // text--------------- */}
           <div className={styles.sBText}>
-            <a href="#">
+            <Typography color="secondary">
               Search engine optimization is the practice of increasing the
               quantity and quality of traffic to your website through organic
               search engine results.
-            </a>
+            </Typography>
           </div>
         </div>
       </div>

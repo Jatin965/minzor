@@ -84,12 +84,12 @@ const Header = () => {
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
-          <Grid item md={9} sm={10}>
+          <Grid item md={8} sm={10}>
             <Link to="/">
               <img className={classes.img} src={Logo} alt="Minzor" />
             </Link>
           </Grid>
-          <Grid item md={3} sm={2}>
+          <Grid item md={4} sm={2}>
             <Hidden mdUp>
               <IconButton
                 className={classes.menuButton}
@@ -101,6 +101,11 @@ const Header = () => {
             </Hidden>
             <Hidden smDown>
               <div className={classes.ul}>
+                <Typography variant="body1">
+                  <Link className={classes.li} to="/">
+                    Home
+                  </Link>
+                </Typography>
                 <Typography variant="body1">
                   <Link className={classes.li} to="/about">
                     About

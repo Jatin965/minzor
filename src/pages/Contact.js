@@ -25,14 +25,17 @@ const Contact = () => {
         <div className={classes.contactInfo}>
           <h3 className={classes.title}>Let's get in touch</h3>
           <p className={classes.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            If you hit rock bottom, bounce right back up. We, at Minzor, are
+            right by your side to pave your company’s way into success.
           </p>
 
           <div className={classes.info}>
             <div className={classes.information}>
               <MyLocationIcon fontSize="large" className={classes.icon} />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <p>
+                B-6 3rd Floor Nawada Housing Complex, Dwarka Mor, New Delhi
+                110059
+              </p>
             </div>
             <div className={classes.information}>
               <MailOutlineIcon fontSize="large" className={classes.icon} />
@@ -47,16 +50,16 @@ const Contact = () => {
           <div className={classes.socialMedia}>
             <p>Connect with us :</p>
             <div className={classes.socialIcons}>
-              <a href="#">
+              <a href="https://www.facebook.com/TheMinzor/">
                 <FacebookIcon className={classes.ico} />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/Minzor_">
                 <TwitterIcon className={classes.ico} />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/the_minzor/">
                 <InstagramIcon className={classes.ico} />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/minzor/">
                 <LinkedInIcon className={classes.ico} />
               </a>
             </div>
@@ -71,7 +74,7 @@ const Contact = () => {
             <h3 className={classes.title}>Contact us</h3>
             <div className={classes.inputContainer}>
               <input
-                placeholder="Username"
+                placeholder="Name"
                 type="text"
                 color="secondary"
                 className={classes.input}
