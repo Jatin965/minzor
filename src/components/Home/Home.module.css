@@ -1,3 +1,38 @@
+.aniServices {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  margin: 10px 0 !important;
+}
+
+.aniContainer {
+  width: 80vw !important;
+  margin: auto;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.aniContainer h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0d152a;
+}
+
+.aniContainer p {
+  text-align: center;
+}
+
+.aniBox {
+  width: 25vw;
+}
+
+.aniBoxUp {
+  display: flex;
+}
+
 /* Services */
 
 .services {
@@ -14,13 +49,13 @@
 }
 
 .sHeading h1 {
-  color: #ffffff;
+  color: #0d152a;
   font-size: 3rem;
   margin: 0px;
   padding: 0px;
 }
 .sHeading p {
-  color: rgba(255, 255, 255, 0.3);
+  color: #0d152a;
   font-size: 1rem;
   margin: 0px;
   padding: 0px;
@@ -109,12 +144,18 @@
   .sBImg img {
     object-fit: cover;
   }
+  .aniBoxUp {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 400px) {
   .sBox {
     width: 100%;
     height: 400px;
+  }
+  .aniBoxUp {
+    direction: -1;
   }
 }
 
