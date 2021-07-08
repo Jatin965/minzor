@@ -129,7 +129,7 @@ const Port = () => {
         <Folio
           image={i12}
           heading="Ecosphere Education"
-          projectLink="https://ecosphereeducation.com//"
+          projectLink="https://ecosphereeducation.com/"
         />
       </Grid>
       <Grid item md={4} sm={12}>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Port from "../components/Work/Port";
+import Work from "../components/Work/Work";
 
 const Portfolio = () => {
   return (
@@ -35,7 +36,8 @@ const Portfolio = () => {
       >
         Work we have done so far.
       </p>
-      <Port />
+      {/* <Port /> */}
+      <Work />
     </div>
   );
 };

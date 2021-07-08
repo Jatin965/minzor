@@ -1,11 +1,112 @@
 .contain {
-  width: 80vw !important;
+  width: 95vw !important;
   margin: 10px auto !important;
-  overflow-x: hidden;
-  border: 2px solid #0d152a;
+  overflow-x: hidden !important;
+  /* border: 2px solid #0d152a; */
 }
 
-.folio-list {
+.box {
+  height: 300px;
+  width: 450px;
+  border: 1px solid #0d152a;
+  background: #000;
+  background-position: top;
+  transition: ease-in-out 5s;
+}
+
+.box.box1 {
+  background: url(../../resources/Portfolio/whole/1.png);
+  background-size: cover;
+}
+.box.box2 {
+  background: url(../../resources/Portfolio/whole/2.png);
+  background-size: cover;
+}
+.box.box3 {
+  background: url(../../resources/Portfolio/whole/1.png);
+  background-size: cover;
+}
+.box.box4 {
+  background: url(../../resources/Portfolio/whole/4.png);
+  background-size: cover;
+}
+.box.box5 {
+  background: url(../../resources/Portfolio/whole/5.png);
+  background-size: cover;
+}
+.box.box6 {
+  background: url(../../resources/Portfolio/whole/6.png);
+  background-size: cover;
+}
+.box.box7 {
+  background: url(../../resources/Portfolio/whole/7.png);
+  background-size: cover;
+}
+.box.box8 {
+  background: url(../../resources/Portfolio/whole/8.png);
+  background-size: cover;
+}
+.box.box9 {
+  background: url(../../resources/Portfolio/whole/9.png);
+  background-size: cover;
+}
+.box.box10 {
+  background: url(../../resources/Portfolio/whole/10.png);
+  background-size: cover;
+}
+.box.box11 {
+  background: url(../../resources/Portfolio/whole/11.png);
+  background-size: cover;
+}
+.box.box12 {
+  background: url(../../resources/Portfolio/whole/12.png);
+  background-size: cover;
+}
+.box.box13 {
+  background: url(../../resources/Portfolio/whole/13.png);
+  background-size: cover;
+}
+.box.box14 {
+  background: url(../../resources/Portfolio/whole/14.png);
+  background-size: cover;
+}
+.box.box15 {
+  background: url(../../resources/Portfolio/whole/15.png);
+  background-size: cover;
+}
+.box.box16 {
+  background: url(../../resources/Portfolio/whole/1.png);
+  background-size: cover;
+}
+.box.box17 {
+  background: url(../../resources/Portfolio/whole/1.png);
+  background-size: cover;
+}
+.box.box18 {
+  background: url(../../resources/Portfolio/whole/1.png);
+  background-size: cover;
+}
+
+.box:hover {
+  background-position: bottom;
+}
+
+.folio-item a {
+  color: #0d152a;
+  text-decoration: none;
+}
+
+.folio-item p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+  font-size: 1.4rem;
+}
+
+/* .folio-list {
   max-width: 1180px;
   margin-top: var(--vspace-2_5);
 }
@@ -58,9 +159,9 @@
   position: absolute;
   left: 50%;
   top: 50%;
-}
+} */
 
-.folio-item {
+/* .folio-item {
   border: 2px solid #0d152a;
 }
 
@@ -92,7 +193,7 @@
 
 /* on hover
 *---------------------------------------------- */
-.folio-item:hover .folio-item__thumb::before {
+/* .folio-item:hover .folio-item__thumb::before {
   opacity: 1;
   visibility: visible;
 }
@@ -112,4 +213,4 @@
 .folio-item:hover p {
   z-index: 1000000;
   display: flex;
-}
+}  */
